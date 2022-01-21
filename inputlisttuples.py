@@ -1,0 +1,5 @@
+values = (input("Please enter some values separated with comas:"))
+list =values.split(",")
+tuple = tuple(list)
+print('list: ',list)
+print('tuple :', tuple)
